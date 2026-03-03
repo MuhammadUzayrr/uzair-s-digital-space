@@ -2,7 +2,7 @@ const projects = [
   {
     title: "TaalConnect",
     description:
-      "A full-stack Flutter & Firebase app for artists and event organizers to book, manage, and make in-app payments. Features three dashboards (artist, event-organizer, admin), an ML-based recommendation system for top-rated singers, artist face recognition, and Stripe payment gateway integration for in-app bookings.",
+      "A full-stack <a href=\"https://flutter.dev/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline\">Flutter</a> & <a href=\"https://firebase.google.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline\">Firebase</a> app for artists and event organizers to book, manage, and make in-app payments. Features three dashboards (artist, event-organizer, admin), a ML-based recommendation system for top-rated singers, artist face recognition, and <a href=\"https://stripe.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline\">Stripe</a> payment gateway integration for in-app bookings.",
     tech: "Flutter, Firebase, Machine Learning, Stripe",
     highlight: "Final Year Project",
   },
@@ -17,14 +17,14 @@ const projects = [
     title: "Smart Information Detection System",
     description:
       "A prototype developed during the ISPR internship to automatically detect and categorize media and security-related information.",
-    tech: "Python, Flutter, SQL, NLP, OpenCV, TensorFlow",
+    tech: "Python, Flutter, SQL, <a href=\"https://en.wikipedia.org/wiki/Natural_language_processing\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline\">NLP</a>, <a href=\"https://opencv.org/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline\">OpenCV</a>, <a href=\"https://www.tensorflow.org/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline\">TensorFlow</a>",
     highlight: "ISPR Internship Project",
   },
   {
     title: "Resume Credibility Analyzer",
     description:
       "An AI-powered system that detects fake skills, buzzwords, and scores confidence in resumes. The core functionality detects fake skills and lists additional skills of an individual.",
-    tech: "Python, Streamlit, NLP",
+    tech: "Python, <a href=\"https://streamlit.io/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary hover:underline\">Streamlit</a>, NLP",
   },
   {
     title: "Pakistani Singers/Celebrities Recognition Dataset",
@@ -61,9 +61,9 @@ const Projects = () => {
                 </span>
               )}
             </div>
-            <p className="text-foreground leading-relaxed mb-2">{project.description}</p>
+            <p className="text-foreground leading-relaxed mb-2" dangerouslySetInnerHTML={{ __html: project.description }} />
             <p className="text-xs text-muted-foreground">
-              <span className="font-medium">Tech:</span> {project.tech}
+              <span className="font-medium">Tech:</span> <span dangerouslySetInnerHTML={{ __html: project.tech }} />
             </p>
           </div>
         ))}

@@ -8,11 +8,13 @@ const Index = () => {
           <a href="https://www.saus.edu.pk/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
             The Shaikh Ayaz University, Shikarpur
           </a>{" "}
-          (graduating January 2026). My work blends software development—especially in AI and Machine Learning—with
+          (graduating January 2026). My work blends software development—especially in <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">AI</a> and <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Machine Learning</a>—with
           a deep passion for leadership and social impact, particularly in climate action. I'm also the Co-founder
           of the{" "}
-          <span className="font-semibold">Digital Youth Leadership Program (DYLP)</span>, where I'm helping design
-          a fellowship to equip students with skills in emerging technologies, cybersecurity, and leadership.
+          <a href="https://www.linkedin.com/company/dylpakistan" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">
+            Digital Youth Leadership Program (DYLP)
+          </a>, where I'm helping design
+          a fellowship to equip students with skills in emerging technologies, <a href="https://en.wikipedia.org/wiki/Computer_security" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">cybersecurity</a>, and leadership.
         </p>
       </section>
 
@@ -24,8 +26,7 @@ const Index = () => {
           <a href="https://www.saus.edu.pk/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
             The Shaikh Ayaz University, Shikarpur
           </a>{" "}
-          (2022–2026), with key coursework in Artificial Intelligence, Machine Learning, and Cybersecurity.
-          Prior to that, I completed my 12th Certificate (Pre-Engineering) with a 4.0/4.0 grade from Govt. Islamia College Sukkur.
+          (2022–2026), with key coursework in <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Artificial Intelligence</a>, <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Machine Learning</a>, and <a href="https://en.wikipedia.org/wiki/Computer_security" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cybersecurity</a>.
         </p>
       </section>
 
@@ -34,16 +35,10 @@ const Index = () => {
         <h2 className="text-2xl font-bold text-foreground mb-4">Research Interests</h2>
         <p className="text-foreground leading-relaxed">
           My research interests are at the intersection of AI, Data Science, and Software Engineering. Specifically,
-          my primary interests include <strong>Machine Learning</strong>, <strong>Data Mining</strong>,{" "}
-          <strong>Pattern Recognition</strong>, <strong>Image Processing</strong>, <strong>IoT</strong>,{" "}
-          <strong>Software Testing</strong>, <strong>Databases</strong>, <strong>Parallel Numerical Algorithms</strong>,{" "}
-          and <strong>Constraint Satisfaction Problems (CSP)</strong>.
-        </p>
-        <p className="text-foreground leading-relaxed mt-3">
-          These areas strongly align with my recent projects and with China's "Digital China" initiative, which
-          emphasizes the use of Artificial Intelligence and IoT to advance the economy and society. I would be
-          delighted to contribute to green and digital innovation — leveraging my experience in social work and
-          AI — while also contributing to the advancement of AI and software development in my own country.
+          my primary interests include <strong><a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Machine Learning</a></strong>, <strong><a href="https://en.wikipedia.org/wiki/Data_mining" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Data Mining</a></strong>,{" "}
+          <strong><a href="https://en.wikipedia.org/wiki/Pattern_recognition" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Pattern Recognition</a></strong>, <strong><a href="https://en.wikipedia.org/wiki/Image_processing" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Image Processing</a></strong>, <strong><a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">IoT</a></strong>,{" "}
+          <strong><a href="https://en.wikipedia.org/wiki/Software_testing" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Software Testing</a></strong>, <strong><a href="https://en.wikipedia.org/wiki/Database" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Databases</a></strong>, <strong><a href="https://en.wikipedia.org/wiki/Parallel_algorithm" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Parallel Numerical Algorithms</a></strong>,{" "}
+          <strong><a href="https://en.wikipedia.org/wiki/Constraint_satisfaction_problem" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Constraint Satisfaction Problems (CSP)</a></strong>, and <strong>AI for Social Good</strong>.
         </p>
       </section>
     </div>
