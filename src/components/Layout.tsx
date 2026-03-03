@@ -1,4 +1,4 @@
-import { Mail, MapPin, Building, Github, Linkedin } from "lucide-react";
+import { Mail, MapPin, Building, Github, Linkedin, Instagram, Globe } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import profileAvatar from "@/assets/profile-avatar.jpg";
@@ -42,7 +42,7 @@ const Layout = () => {
           {/* Sidebar */}
           <aside className="md:w-64 shrink-0">
             <img
-              src={profileAvatar}
+              src="/uzair.jpeg"
               alt="Muhammad Uzair"
               className="w-44 h-44 rounded-full mx-auto md:mx-0 object-cover border-4 border-border"
             />
@@ -52,14 +52,14 @@ const Layout = () => {
                 Computer Science Student at The Shaikh Ayaz University, Shikarpur
               </p>
               <p className="text-xs text-muted-foreground mt-1 italic">
-                Co-founder at DYLP · Youth Climate Fellow
+                Co-founder at <a href="https://www.linkedin.com/company/dylpofficial/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">DYLP</a> · Youth Climate Fellow
               </p>
             </div>
 
             <div className="mt-6 space-y-2.5 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Shikarpur, Sindh, Pakistan</span>
+                <span>Sukkur, Sindh</span>
               </div>
               <div className="flex items-center gap-2">
                 <Building className="w-4 h-4 text-primary" />
@@ -69,13 +69,21 @@ const Layout = () => {
                 <Mail className="w-4 h-4 text-primary" />
                 <span>Email</span>
               </a>
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+              <a href="https://github.com/MuhammadUzayrr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
                 <Github className="w-4 h-4 text-primary" />
                 <span>GitHub</span>
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/muhammad-uzair-mangi/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
                 <Linkedin className="w-4 h-4 text-primary" />
                 <span>LinkedIn</span>
+              </a>
+              <a href="https://www.instagram.com/uzairethics_/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+                <Instagram className="w-4 h-4 text-primary" />
+                <span>Instagram</span>
+              </a>
+              <a href="https://www.kaggle.com/uzairpk" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+                <Globe className="w-4 h-4 text-primary" />
+                <span>Kaggle</span>
               </a>
             </div>
           </aside>
